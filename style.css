@@ -1,0 +1,93 @@
+body{
+    background-color: #A9BCD0;
+    color: white;
+}
+
+.container{
+    margin: 12px;
+    margin-top: 15%;
+    margin-left: 34%;
+    padding: 18px;
+    padding-bottom: 28px;
+    height: 250px;
+    width: 27%;
+    text-align: center;
+    background-color: #58A4B0;
+    border-radius: 15px;
+}
+
+.inputArea{
+    margin: 18px;
+    margin-left: 9%;
+    padding:4px;
+    width: 80%;
+    text-align: center;
+    border: 1px solid #D8DBE2;
+    background-color: #D8DBE2;
+}
+
+.inputArea input{
+    font-size: 22px;
+    border: none;
+    padding: 12px;
+    background-color: #D8DBE2;
+    color: black;
+    outline: none;
+}
+
+.inputArea button{
+    width: 20%;
+    font-size: 22px;
+    border: none;
+    padding: 12px;
+    background-color: #D8DBE2;
+    color: black;
+}
+
+.inputArea button:hover{
+    background-color: #cbd2e3;
+    border-radius: 5px;
+}
+
+.meter{
+    margin: 10px;
+    margin-top: 1cm;
+    padding: 18px;
+    content: "";
+}
+
+.meter.weak::before{
+
+}
+
+.meter.moderate::before{
+   
+}
+
+.meter.strong::before{
+
+}
+
+.meter.weak::after{
+    border-radius: 8px;
+    padding: 18px;
+    background-color: red;
+    content: "Weak Password";
+    color: rgb(5, 2, 2);
+}
+
+.meter.moderate::after{
+    border-radius: 8px;
+    padding: 18px;
+    background-color: yellow;
+    content: "Moderate Password";
+    color: rgb(10, 10, 10);
+}
+
+.meter.strong::after{
+    border-radius: 8px;
+    padding: 18px;
+    background-color: green;
+    content: "Strong Password";
+    color: rgb(10, 10, 10);
+}
